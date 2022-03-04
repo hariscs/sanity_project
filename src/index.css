@@ -18,3 +18,24 @@
 	margin: 0;
 	scroll-behavior: smooth;
 }
+
+body {
+	font-family: var(--font-base);
+}
+
+img {
+	max-width: 100%;
+}
+
+section div {
+	padding: 4rem;
+	max-width: 80%;
+}
+
+article {
+	flex: 1;
+	border: 1px solid red;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
